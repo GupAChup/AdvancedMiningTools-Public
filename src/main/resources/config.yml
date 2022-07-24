@@ -1,0 +1,30 @@
+tools:
+  blast-pickaxe:
+    # Set the main color of the selection GUI #
+    gui_main_color: 'RED'
+    # Set the secondary color of the selection GUI #
+    gui_secondary_color: 'WHITE'
+    # Set the compliment color of the selection GUI #
+    gui_compliment_color: 'BLACK'
+  shockwave-pickaxe:
+    # Set the main color of the selection GUI #
+    gui_main_color: 'CYAN'
+    # Set the secondary color of the selection GUI #
+    gui_secondary_color: 'WHITE'
+    # Set the compliment color of the selection GUI #
+    gui_compliment_color: 'BLACK'
+  custom-tools:
+    '0':
+      # This is the pickaxe's material: WOOD, GOLD, IRON, DIAMOND, NETHERITE #
+      material: "IRON"
+      # Enable / Disable if this pickaxe is unbreakable #
+      unbreakable: false
+      # This is the pickaxe's type: BLAST, SHOCKWAVE #
+      type: "BLAST"
+      # This is the radius of the tool #
+      radius: 3
+      # This toggles whether or not this pickaxe can switch between tench and tray modes #
+      switchable: false
+general-settings:
+  # This toggles whether or not the plugin should override various detections with spartan anticheat while using a mining tool #
+  spartan_override: false

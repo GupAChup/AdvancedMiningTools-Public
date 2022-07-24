@@ -1,0 +1,84 @@
+no-permission: "&cNo permission!"
+invalid-radius: "&cError: This is not a valid radius! Please select an odd number."
+invalid-user: "&cError: That player is not online!"
+invalid-number: "&cError: That is not a valid number."
+reload: "&aPlugin Reloaded."
+invalid-repair: "&cError: This item cannot be repaired!"
+help:
+  - "&8&l&m-------&4&lAdvancedMiningTools Help&8&l&m-------"
+  - "&c/amt give [player] (blast) [radius] [amount] &7Give a player the specified number of blast pickaxe(s)."
+  - "&c/amt give [player] (shockwave) [radius] [amount] &7Give a player the specified number of shockwave pickaxe(s)."
+  - "&c/amt give [player] (custom) [id] [amount] &7Give a player the specified number of custom pickaxe(s). from the config"
+  - "&c/amt reload &7Reload the plugin."
+blast-tool:
+  mode_switched: "&aMode switched&7."
+  mode_already_selected: "&cThis mode has already been selected&7."
+  given_blast_pickaxe: "&4{player} &7was given &c{amount} &7blast pickaxes."
+  name: "&c&lBlast Pickaxe &7({radius})"
+  trench_lore:
+    - ""
+    - " &4&l* &7Mode: &cTrench"
+    - ""
+    - "&7When mining, break all blocks in the specified"
+    - "&7radius."
+    - ""
+    - "&7&o(right-click to switch modes)"
+  tray_lore:
+    - ""
+    - " &4&l* &7Mode: &cTray"
+    - ""
+    - "&7When mining, break all netherrack in the specified"
+    - "&7radius."
+    - ""
+    - "&7&o(right-click to switch modes)"
+  selectiongui:
+    gui_name: "&c&lSelect Mode"
+    trench:
+      name: "&c&lTrench Mode"
+      lore:
+        - "&7When mining, break all blocks in the specified"
+        - "&7radius."
+    tray:
+      name: "&c&lTray Mode"
+      lore:
+        - "&7When mining, break all netherrack in the specified"
+        - "&7radius."
+shockwave-tool:
+  mode_switched: "&aMode switched&7."
+  mode_already_selected: "&cThis mode has already been selected&7."
+  given_shockwave_pickaxe: "&4{player} &7was given &c{amount} &7shockwave pickaxes."
+  name: "&b&lShockwave Pickaxe &7({radius})"
+  trench_lore:
+    - ""
+    - " &3&l* &7Mode: &bTrench"
+    - ""
+    - "&7When mining, break all blocks in the specified"
+    - "&7radius."
+    - ""
+    - "&7&o(right-click to switch modes)"
+  tray_lore:
+    - ""
+    - " &3&l* &7Mode: &bTray"
+    - ""
+    - "&7When mining, break all netherrack in the specified"
+    - "&7radius."
+    - ""
+    - "&7&o(right-click to switch modes)"
+  selectiongui:
+    gui_name: "&b&lSelect Mode"
+    trench:
+      name: "&b&lTrench Mode"
+      lore:
+        - "&7When mining, break all blocks in the specified"
+        - "&7radius."
+    tray:
+      name: "&b&lTray Mode"
+      lore:
+        - "&7When mining, break all netherrack in the specified"
+        - "&7radius."
+custom-tools:
+  given_custom_pickaxe: "&4{player} &7was given &c{amount} &7custom pickaxes."
+  invalid_id: "&cError: This tool ID does not exist in the config."
+  invalid_type: "&cError: This tool does not have a valid type in the config."
+  invalid_radius: "&cError: This tool does not have and odd radius in the config."
+  invalid_material: "&cError: This tool does not have a valid material in the config."

@@ -1,0 +1,11 @@
+main: com.chup.advancedminingtools.Main
+version: 1.2.2
+api-version: 1.13
+name: AdvancedMiningTools
+authors:
+  - GupAChup
+description: An advanced way to make mining more unique.
+commands:
+  advancedminingtools:
+    description: List of commands for AdvancedMiningTools
+    aliases: amt
